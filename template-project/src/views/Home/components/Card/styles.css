@@ -1,0 +1,51 @@
+.home-container .card-container {
+  width: 40rem;
+  height: 17rem;
+  margin: 3rem 0;
+
+  border-radius: 0.5rem;
+  background-color: rgb(18, 18, 18);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-container .card-container .image * {
+  width: 9rem;
+  height: 9rem;
+
+  border-radius: 100rem;
+  background-color: white;
+}
+
+.home-container .card-container .content {
+  width: 20rem;
+  
+  align-items: initial;
+}
+
+.home-container .card-container .content * {
+  color: white;
+}
+
+.home-container .card-container .content p {
+  margin-top: 1rem;
+  
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.home-container .card-container .content a {  
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+
+  transition: all 0.3s;
+}
+
+.home-container .card-container .content a:hover {  
+  color: rgb(90, 9, 145);
+  font-size: 1.3rem;
+}
