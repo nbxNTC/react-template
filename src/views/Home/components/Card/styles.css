@@ -42,10 +42,9 @@
   text-decoration: none;
   font-size: 1.2rem;
 
-  transition: all 0.3s;
+  transition: color 0.2s;
 }
 
 .home-container .card-container .content a:hover {  
   color: rgb(90, 9, 145);
-  font-size: 1.3rem;
 }
