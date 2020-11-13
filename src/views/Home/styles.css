@@ -17,3 +17,28 @@
 .home-container .content h1 {
   color: rgb(90, 9, 145);
 }
+
+.home-container .content ul {
+  list-style: none;
+}
+
+.home-container .content ul li {
+  margin: 3rem 0;
+}
+
+.home-container .content ul li a {
+  padding: 1rem 2rem;
+
+  border-radius: 8px;
+  background-color: white;
+
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  transition: all 0.3s;
+}
+
+.home-container .content ul li a:hover {
+  background-color: rgb(90, 9, 145);
+  color: white;
+}

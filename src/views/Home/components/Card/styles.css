@@ -1,6 +1,5 @@
 .home-container .card-container {
-  width: 40rem;
-  height: 17rem;
+  width: 50rem;
   margin: 3rem 0;
 
   border-radius: 0.5rem;
@@ -21,7 +20,7 @@
 }
 
 .home-container .card-container .content {
-  width: 20rem;
+  width: 30rem;
   
   align-items: initial;
 }
